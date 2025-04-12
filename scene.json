@@ -1,0 +1,63 @@
+{
+  "ecs7": true,
+  "runtimeVersion": "7",
+  "display": {
+    "title": "Brandon's Plot",
+    "description": "BrandonManus.ETH owns this square and plans to make it dope",
+    "favicon": "favicon_asset",
+    "navmapThumbnail": "assets/scene/a_profile_pic.png"
+  },
+  "owner": "",
+  "contact": {
+    "name": "Brandon",
+    "email": ""
+  },
+  "main": "bin/index.js",
+  "tags": [
+    "social"
+  ],
+  "scene": {
+    "base": "-143,134",
+    "parcels": [
+      "-143,134"
+    ]
+  },
+  "spawnPoints": [
+    {
+      "name": "Spawn Point 1",
+      "default": true,
+      "position": {
+        "x": [
+          0,
+          3
+        ],
+        "y": [
+          0,
+          0
+        ],
+        "z": [
+          0,
+          3
+        ]
+      },
+      "cameraTarget": {
+        "x": 8,
+        "y": 1,
+        "z": 8
+      }
+    }
+  ],
+  "requiredPermissions": [
+    "ALLOW_TO_TRIGGER_AVATAR_EMOTE",
+    "ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE"
+  ],
+  "featureToggles": {
+    "voiceChat": "enabled",
+    "portableExperiences": "enabled"
+  },
+  "source": {
+    "origin": "creator-hub",
+    "projectId": "af302dbc-ef96-497f-820b-29bc1091c686"
+  },
+  "rating": "T"
+}
